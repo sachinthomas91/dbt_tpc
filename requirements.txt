@@ -1,0 +1,4 @@
+# dbt v2 open-source build (Rust runtime, Apache 2.0). Requires Python >=3.10.
+# Databricks adapter for v2 is still to be added. Do NOT add dbt-databricks here:
+# its latest release (1.12.x) is the v1 adapter and pulls in dbt-core (v1).
+dbt-oss==2.0.8

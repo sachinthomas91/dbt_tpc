@@ -1,0 +1,11 @@
+name: dbt_tpc
+
+profile: dbt_tpc
+
+seed-paths: ["seeds"]
+model-paths: ["models"]
+macro-paths: ["macros"]
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
